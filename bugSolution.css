@@ -1,0 +1,24 @@
+/* bugSolution.css */
+
+/* Correct use of calc() for width, understanding that the containing block width is used for percentage calculations */
+.container {
+  width: calc(100% - 20px);
+}
+
+/* Correct use of calc() with percentages, understanding that percentages for margin and padding are based on the content area of the parent element, not the parent's total width including margins/padding */
+.element {
+  width: 50%;
+  margin-left: calc(50% - 50px);
+  /* Adjust this calculation or use different approach based on desired behavior */ 
+}
+
+/* Correct handling of units and operators */
+.another-element {
+  padding: calc(10px + 5px);
+  /* Always include a space around operators for clarity */
+}
+
+/* Correct handling of nested calc() functions, avoid inconsistent results */
+.nested-calc {
+  width: calc(calc(100% - 20px) * 0.5);
+}
