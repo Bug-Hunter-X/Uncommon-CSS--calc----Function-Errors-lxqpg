@@ -1,0 +1,3 @@
+# Uncommon CSS `calc()` Function Errors
+
+This repository demonstrates common errors and unexpected behavior encountered when using the `calc()` function in CSS.  The `calc()` function is a powerful tool for dynamic calculations, but it can be tricky to master.  Understanding how percentages are calculated within `calc()` in relation to the parent element's content area vs. containing block width is critical. Incorrect unit usage, operator errors, and unexpected behavior when mixing percentage-based values with fixed values are also highlighted. Solutions are provided in the `bugSolution.css` file.
